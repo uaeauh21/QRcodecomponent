@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+  color: #333;
+  letter-spacing: -0.5px;
+  text-align: center;
+  font-size: 2.1rem;
+  line-height: 1.05;
+  margin-top: 1.2rem;
+  padding: 1.2rem;
+}
+
+p {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.05;
+}
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  column-gap: 75px;
+  row-gap: 60px;
+  box-shadow: 4.8rem rgba(0, 0, 0, 0.9);
+}
+
+.section-qr {
+  max-width: 310px;
+  background-color: white;
+  border-radius: 1.8rem;
+  padding: 2rem;
+}
+
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 1.3rem;
+}
